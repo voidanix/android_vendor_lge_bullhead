@@ -89,9 +89,6 @@ PRODUCT_PACKAGES += \
     Entitlement \
     GCS \
     DiagMon \
-    HotwordEnrollmentOKGoogleWCD9330 \
-    HotwordEnrollmentTGoogleWCD9330 \
-    HotwordEnrollmentXGoogleWCD9330 \
     LifeTimerService \
     SprintDM \
     atfwd \

@@ -28,7 +28,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/bullhead/proprietary/bin/lowi-server:system/bin/lowi-server \
     vendor/lge/bullhead/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lge/bullhead/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/lge/bullhead/proprietary/vendor/bin/netmgrd:/vendor/bin/netmgrd \
     vendor/lge/bullhead/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/bullhead/proprietary/bin/perfd:system/bin/perfd \
     vendor/lge/bullhead/proprietary/bin/pm-proxy:system/bin/pm-proxy \

@@ -24,18 +24,18 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
     vendor/lge/bullhead/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
     vendor/lge/bullhead/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/bullhead/proprietary/bin/loc_launcher:system/bin/loc_launcher \
-    vendor/lge/bullhead/proprietary/bin/location-mq:system/bin/location-mq \
-    vendor/lge/bullhead/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/lge/bullhead/proprietary/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
+    vendor/lge/bullhead/proprietary/bin/location-mq:$(TARGET_COPY_OUT_VENDOR)/bin/location-mq \
+    vendor/lge/bullhead/proprietary/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
     vendor/lge/bullhead/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/lge/bullhead/proprietary/vendor/bin/netmgrd:/vendor/bin/netmgrd \
+    vendor/lge/bullhead/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/lge/bullhead/proprietary/bin/nl_listener:system/bin/nl_listener \
     vendor/lge/bullhead/proprietary/bin/perfd:system/bin/perfd \
     vendor/lge/bullhead/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/lge/bullhead/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/lge/bullhead/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/bullhead/proprietary/bin/qmakernote-xtract:system/bin/qmakernote-xtract \
-    vendor/lge/bullhead/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/bullhead/proprietary/bin/qmuxd:$(TARGET_COPY_OUT_VENDOR)/bin/qmuxd \
     vendor/lge/bullhead/proprietary/bin/radish:system/bin/radish \
     vendor/lge/bullhead/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/bullhead/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \

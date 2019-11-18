@@ -1,0 +1,206 @@
+soong_namespace {
+}
+
+android_app_import {
+	name: "datastatusnotification",
+	owner: "lge",
+	apk: "proprietary/vendor/app/datastatusnotification/datastatusnotification.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "HiddenMenu",
+	owner: "lge",
+	apk: "proprietary/app/HiddenMenu/HiddenMenu.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "RCSBootstraputil",
+	owner: "lge",
+	apk: "proprietary/app/RCSBootstraputil/RCSBootstraputil.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "RcsImsBootstraputil ",
+	owner: "lge",
+	apk: "proprietary/app/RcsImsBootstraputil/RcsImsBootstraputil.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "TimeService",
+	owner: "lge",
+	apk: "proprietary/app/TimeService/TimeService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
+	name: "CNEService",
+	owner: "lge",
+	apk: "proprietary/priv-app/CNEService/CNEService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "ConnMO",
+	owner: "lge",
+	apk: "proprietary/priv-app/ConnMO/ConnMO.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "DCMO",
+	owner: "lge",
+	apk: "proprietary/priv-app/DCMO/DCMO.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "DMConfigUpdate",
+	owner: "lge",
+	apk: "proprietary/priv-app/DMConfigUpdate/DMConfigUpdate.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "DMService",
+	owner: "lge",
+	apk: "proprietary/priv-app/DMService/DMService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "DiagMon",
+	owner: "lge",
+	apk: "proprietary/priv-app/DiagMon/DiagMon.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: " LifeTimerService",
+	owner: "lge",
+	apk: "proprietary/priv-app/LifeTimerService/LifeTimerService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "SprintDM",
+	owner: "lge",
+	apk: "proprietary/priv-app/SprintDM/SprintDM.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "atfwd",
+	owner: "lge",
+	apk: "proprietary/priv-app/atfwd/atfwd.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+android_app_import {
+	name: "qcrilmsgtunnel",
+	owner: "lge",
+	apk: "proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
+dex_import {
+	name: "cneapiclient",
+	owner: "lge",
+	jars: ["proprietary/framework/cneapiclient.jar"],
+}
+
+dex_import {
+	name: "qcrilhook",
+	owner: "lge",
+	jars: ["proprietary/framework/qcrilhook.jar"],
+}
+
+dex_import {
+	name: "rcsimssettings",
+	owner: "lge",
+	jars: ["proprietary/framework/rcsimssettings.jar"],
+}
+
+dex_import {
+	name: "rcsservice",
+	owner: "lge",
+	jars: ["proprietary/framework/rcsservice.jar"],
+}
+
+cc_prebuilt_library_shared {
+	name: "libtime_genoff",
+	owner: "lge",
+	strip: {
+		none: true,
+	}
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libtime_genoff.so"],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libtime_genoff.so"],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+

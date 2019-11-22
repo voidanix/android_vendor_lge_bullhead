@@ -74,6 +74,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/lib/libloc_ds_api.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_ds_api.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_api_v02.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_api_v02.so \
     vendor/lge/bullhead/proprietary/lib64/libloc_ds_api.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libloc_ds_api.so
+    vendor/lge/bullhead/proprietary/vendor/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so
+    vendor/lge/bullhead/proprietary/vendor/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so
 
 PRODUCT_PACKAGES += \
     HiddenMenu \

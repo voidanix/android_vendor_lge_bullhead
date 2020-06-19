@@ -12,6 +12,16 @@ android_app_import {
 }
 
 android_app_import {
+	name: "ims",
+	owner: "lge",
+	apk: "proprietary/vendor/app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+}
+
+android_app_import {
 	name: "HiddenMenu",
 	owner: "lge",
 	apk: "proprietary/app/HiddenMenu/HiddenMenu.apk",
@@ -32,19 +42,9 @@ android_app_import {
 }
 
 android_app_import {
-	name: "RcsImsBootstraputil ",
+	name: "RcsImsBootstraputil",
 	owner: "lge",
 	apk: "proprietary/app/RcsImsBootstraputil/RcsImsBootstraputil.apk",
-	certificate: "platform",
-	dex_preopt: {
-		enabled: false,
-	},
-}
-
-android_app_import {
-	name: "TimeService",
-	owner: "lge",
-	apk: "proprietary/app/TimeService/TimeService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -118,7 +118,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: " LifeTimerService",
+	name: "LifeTimerService",
 	owner: "lge",
 	apk: "proprietary/priv-app/LifeTimerService/LifeTimerService.apk",
 	certificate: "platform",

@@ -70,6 +70,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/lge/bullhead/proprietary/etc/permissions/rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcsservice.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.camera.experimental2016.xml \
     vendor/lge/bullhead/proprietary/etc/qcril.db:$(TARGET_COPY_OUT_SYSTEM)/etc/qcril.db \
     vendor/lge/bullhead/proprietary/etc/sap.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sap.conf \
     vendor/lge/bullhead/proprietary/etc/sysconfig/bullhead_common.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/bullhead_common.xml \
@@ -507,4 +508,5 @@ PRODUCT_PACKAGES += \
     rcsservice \
     libtime_genoff \
     datastatusnotification \
-    ims
+    ims \
+    com.google.android.camera.experimental2016

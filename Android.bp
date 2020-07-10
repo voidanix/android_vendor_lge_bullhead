@@ -204,3 +204,9 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
+dex_import {
+        name: "com.google.android.camera.experimental2016",
+        owner: "google",
+        jars: ["proprietary/framework/com.google.android.camera.experimental2016.jar"],
+        soc_specific: true,
+}

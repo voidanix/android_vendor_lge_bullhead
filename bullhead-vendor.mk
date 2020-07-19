@@ -56,26 +56,26 @@ PRODUCT_COPY_FILES += \
     vendor/lge/bullhead/proprietary/etc/acdbdata/MTP/MTP_Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Headset_cal.acdb \
     vendor/lge/bullhead/proprietary/etc/acdbdata/MTP/MTP_Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/acdbdata/MTP/MTP_Speaker_cal.acdb \
     vendor/lge/bullhead/proprietary/etc/cne/profile.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/profile.txt \
-    vendor/lge/bullhead/proprietary/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/dsi_config.xml \
-    vendor/lge/bullhead/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/netmgr_config.xml \
-    vendor/lge/bullhead/proprietary/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/data/qmi_config.xml \
+    vendor/lge/bullhead/proprietary/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
+    vendor/lge/bullhead/proprietary/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
+    vendor/lge/bullhead/proprietary/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/qmi_config.xml \
     vendor/lge/bullhead/proprietary/etc/flp.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/flp.conf \
     vendor/lge/bullhead/proprietary/etc/izat.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/izat.conf \
     vendor/lge/bullhead/proprietary/etc/lowi.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/lowi.conf \
-    vendor/lge/bullhead/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/cneapiclient.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.omadm.service.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.sdm.plugins.connmo.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/privapp-permissions-bullhead.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-bullhead.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qcrilhook.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/rcsservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/rcsservice.xml \
-    vendor/lge/bullhead/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.google.android.camera.experimental2016.xml \
-    vendor/lge/bullhead/proprietary/etc/qcril.db:$(TARGET_COPY_OUT_SYSTEM)/etc/qcril.db \
+    vendor/lge/bullhead/proprietary/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.android.omadm.service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.omadm.service.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.connmo.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.sdm.plugins.connmo.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.android.sdm.plugins.sprintdm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.sdm.plugins.sprintdm.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/privapp-permissions-bullhead.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/privapp-permissions-bullhead.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_permissions.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/rcsservice.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/rcsservice.xml \
+    vendor/lge/bullhead/proprietary/etc/permissions/com.google.android.camera.experimental2016.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.google.android.camera.experimental2016.xml \
+    vendor/lge/bullhead/proprietary/etc/qcril.db:$(TARGET_COPY_OUT_VENDOR)/etc/qcril.db \
     vendor/lge/bullhead/proprietary/etc/sap.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/sap.conf \
     vendor/lge/bullhead/proprietary/etc/sysconfig/bullhead_common.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/bullhead_common.xml \
     vendor/lge/bullhead/proprietary/etc/sysconfig/whitelist_com.android.omadm.service.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/whitelist_com.android.omadm.service.xml \
-    vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine-8992.conf \
+    vendor/lge/bullhead/proprietary/etc/thermal-engine-8992.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-8992.conf \
     vendor/lge/bullhead/proprietary/lib/libdmengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmengine.so \
     vendor/lge/bullhead/proprietary/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmjavaplugin.so \
     vendor/lge/bullhead/proprietary/lib/libloc_api_v02.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libloc_api_v02.so \
